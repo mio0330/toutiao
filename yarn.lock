@@ -864,7 +864,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.x", "@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.14.0"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.14.0.tgz?cache=0&sync_timestamp=1619727414495&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   integrity sha1-RnlLwgthLF915i3QceJN/ZXxy+Y=
@@ -976,6 +976,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
+
+"@popperjs/core@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.nlark.com/@popperjs/core/download/@popperjs/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
@@ -1168,7 +1173,19 @@
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
 
-"@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
+"@vant/icons@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.5.3.tgz#b7779f67bf608d417a82452fbede406dfa46b439"
+  integrity sha1-t3efZ79gjUF6gkUvvt5AbfpGtDk=
+
+"@vant/popperjs@^1.0.0":
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/@vant/popperjs/download/@vant/popperjs-1.1.0.tgz?cache=0&sync_timestamp=1617712371368&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vant%2Fpopperjs%2Fdownload%2F%40vant%2Fpopperjs-1.1.0.tgz#b4edee5bbfa6fb18705986e313d4fd5f17942a0f"
+  integrity sha1-tO3uW7+m+xhwWYbjE9T9XxeUKg8=
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0", "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
   resolved "https://registry.nlark.com/@vue/babel-helper-vue-jsx-merge-props/download/@vue/babel-helper-vue-jsx-merge-props-1.2.1.tgz#31624a7a505fb14da1d58023725a4c5f270e6a81"
   integrity sha1-MWJKelBfsU2h1YAjclpMXycOaoE=
@@ -1668,6 +1685,11 @@ alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
+
+amfe-flexible@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.nlark.com/amfe-flexible/download/amfe-flexible-2.2.1.tgz#353f00289e4d38ca88a21eb3854420308af0b559"
+  integrity sha1-NT8AKJ5NOMqIoh6zhUQgMIrwtVk=
 
 ansi-colors@^3.0.0:
   version "3.2.4"
@@ -7035,6 +7057,11 @@ postcss-ordered-values@^4.1.2:
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
 
+postcss-pxtorem@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npm.taobao.org/postcss-pxtorem/download/postcss-pxtorem-6.0.0.tgz#f228a4d05d8a73f0642eabae950e2b19836366d7"
+  integrity sha1-8iik0F2Kc/BkLquulQ4rGYNjZtc=
+
 postcss-reduce-initial@^4.0.3:
   version "4.0.3"
   resolved "https://registry.npm.taobao.org/postcss-reduce-initial/download/postcss-reduce-initial-4.0.3.tgz#7fd42ebea5e9c814609639e2c2e84ae270ba48df"
@@ -8780,6 +8807,17 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vant@^2.12.19:
+  version "2.12.19"
+  resolved "https://registry.nlark.com/vant/download/vant-2.12.19.tgz?cache=0&sync_timestamp=1621244201131&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvant%2Fdownload%2Fvant-2.12.19.tgz#5858b6fe0115ba95dc3808f070f4a1bf0c9490c7"
+  integrity sha1-WFi2/gEVupXcOAjwcPShvwyUkMc=
+  dependencies:
+    "@babel/runtime" "7.x"
+    "@vant/icons" "^1.5.3"
+    "@vant/popperjs" "^1.0.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.nlark.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -8820,6 +8858,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/vue-lazyload/download/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha1-kB+ewVx+bKeHgaK65KNDaGve2yw=
 
 "vue-loader-v16@npm:vue-loader@^16.1.0":
   version "16.2.0"
