@@ -34,6 +34,11 @@
         <van-button class="login-btn" type="info" block >登录</van-button>
       </div>
     </van-form>
+    <span>
+      13911111111 / 246810
+      13611111111 / 246810
+      13922222222 / 246810
+    </span>
   </div>
 </template>
 
@@ -70,6 +75,7 @@ export default {
         const { data } = await login(this.user)
         this.$toast.success('登录成功')
         this.$store.commit('setUser', data.data)
+        this.$router.back()
       } catch (err) {
         console.log('登陆失败', err)
         this.$toast.fail('登录失败，手机号或验证码错误')
